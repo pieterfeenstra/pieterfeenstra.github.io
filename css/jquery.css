@@ -1,0 +1,57 @@
+
+html { 
+  background: url(../images/jquery-bg.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Armata', sans-serif;
+}
+
+body{
+background-color: transparent;
+}
+
+/*.header .container{padding: 14px;}*/
+
+/*.header {height: 66px;}*/
+
+.header h2{
+	color: #47C48A;
+
+}
+
+.header .nav-pills a{
+	background-color: transparent;
+	color: #47C48A;
+}
+.header .nav-pills a:hover{
+	color: #000;
+	background-color: #47c48A;
+}
+
+.pictures .container .thumbnail {
+
+	background-color: transparent;
+	border-color: #47c48A;
+	text-align: center;
+	border-width: 3px;
+	border-radius: 10px;
+
+}
+
+.pictures .container .thumbnail h3{
+		color: #F66C5D;
+	}
+
+#map{
+	height:400px;
+	width: 300px;
+}
+
+
+
+
+
+
+
