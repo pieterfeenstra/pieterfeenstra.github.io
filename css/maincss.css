@@ -1,7 +1,7 @@
 body{
     background-color: #4E576A;
-    margin: 0px;
-    padding:0px;
+    padding: 0px;
+    margin:0px;
 }
 
 
@@ -49,12 +49,10 @@ body{
 /* 3 sections */
 .threesections{
   text-align: center;
-
   margin-top: -150px;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 30px;
-
 }
 
 .left h2{
@@ -74,9 +72,6 @@ body{
   margin-bottom: 10px;
   margin-right: 25px;
 
-
-
-
 }
 .middle h2{
   margin-bottom: 30px;
@@ -94,9 +89,6 @@ body{
   margin-right: 25px;
   margin-bottom: 10px;
   font-size: 15px;
-
-
-
 }
 
 .right h2{
@@ -119,4 +111,38 @@ body{
 
   font-weight: lighter;
   color:#fff;
+}
+
+.contact{
+  background: url('../images/amsterdam.jpeg') no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+.description{
+	margin-bottom: 50px;
+	margin-top: 200px;
+	text-align: center;
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 10px;
+  color: #fff;
+}
+
+.description-text{
+	color: #fff;
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 10px;
+	height: 100px;
+}
+
+.fa {
+  color:#fff;
+	opacity: 0.7;
+	margin-right: 30px;
+}
+.glyphs{
+  text-align: center;
+  padding-bottom: 200px;
 }
