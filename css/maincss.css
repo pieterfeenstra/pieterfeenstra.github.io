@@ -38,7 +38,7 @@ body{
 }
 
 .page-header {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .page-header {
@@ -106,16 +106,25 @@ body{
   height:200px;
 }
 
+.photo{
+  height:200px;
+  width:200px;
+  /*margin:auto;*/
+
+}
+
 
 .experience {
-
   font-weight: lighter;
   color:#fff;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 25px;
+
 }
 
 .contact{
   background: url('../images/amsterdam.jpeg') no-repeat center center fixed;
-  background-size: cover;
 
 }
 
@@ -145,4 +154,14 @@ body{
 .glyphs{
   text-align: center;
   padding-bottom: 200px;
+}
+
+.projects{
+  margin-top: 100px;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+#map {
+  height: 350px;
 }
