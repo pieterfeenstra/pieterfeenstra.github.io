@@ -63,18 +63,31 @@
     <!--END 3 sections -->
     <div class="container projects">
         <div class="row">
-            <div class="col-md-4 col-md-offset-2 ">
+            <div class="col-md-4 col-xs-12 ">
                 <h2 class="experience">My Experience</h2>
-                <ol>
-                    <li>This Site</li>
-                    <li>Work on Codecademy</li>
+                <ul>
+                    <li>5 years Tech Support</li>
+                    <li>PLC Programming</li>
                     <li>A lot of small projects</li>
-                </ol>
+                    <li>HTML & CSS</li>
+                    <li>Javascript</li>
+                    <li>JQuery</li>
+                    <li>Ruby</li>
+                    <li>Python</li>
+                </ul>
             </div>
             <div class="col-md-4 col-xs-12">
-                <div class="thumbnail photo">
+              <h2 class="experience">Me! </h2>
+                <div class="thumbnail image-responsive">
                     <img src="images/mug-shot.jpg" alt="sorry">
                 </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+              <H2 class="experience">My location</H2>
+
+              <div id="map">
+
+              </div>
             </div>
         </div>
     </div>
@@ -94,17 +107,26 @@
             </div>
     </div>
 </div>
+        <script type="text/javascript">
+
+        function initMap() {
+          map = new google.maps.Map(document.getElementById("map"), {
+            center: { lat: 52.342322, lng: 5.1490465 },
+            zoom: 13 });
+            marker = new google.maps.Marker({ position : { lat: 52.342322, lng: 5.1490465 },
+              map: map,
+              label: 'My Location',
+              draggable : false }); }
+        </script>
 
 
-        <!-- Bootstrap core JavaScript
-  ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjfXU8cKG79v34gIZOkjzAy7drAgjspY4&callback=initMap" async defer></script>
+
         <script>
             window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
         </script>
         <script src="js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="js/ie10-viewport-bug-workaround.js"></script>
 </body>
 
